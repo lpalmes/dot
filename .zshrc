@@ -188,6 +188,10 @@ colors
 
 fpath=($HOME/.zsh/completions $fpath)
 
+autoload -U compinit
+compinit -u
+
+
 # converts ocaml code into reason
 alias mlre="pbpaste | refmt --parse ml --print re --interface false | pbcopy"
 # converts reason code into ocaml
