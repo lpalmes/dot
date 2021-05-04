@@ -1,0 +1,13 @@
+{
+	"tsserver.enableJavascript": false,
+	"languageserver": {
+		"ocaml-lsp": {
+			"command": "esy",
+			"args": ["sh", "-c", "ocamllsp"],
+			"filetypes": ["ocaml", "reason"]
+		}
+	},
+	"diagnostic.virtualText": true,
+	"codeLens.enable": true,
+	"coc.preferences.formatOnSaveFiletypes": ["reason", "ocaml"]
+}
