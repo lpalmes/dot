@@ -1,0 +1,7 @@
+[user]
+	name = lpalmes
+	email = lpalmes@gmail.com
+[core]
+	ignorecase = false
+[alias]
+	one = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
